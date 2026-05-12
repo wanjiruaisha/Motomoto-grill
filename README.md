@@ -1,5 +1,5 @@
 # Motomoto-grill
-Motomoto-grill is a simple restaurant website project showcasing a fictional grill restaurant based in Nairobi,kenya.
+Motomoto-grill is a simple restaurant website project showcasing a grill restaurant based in Nairobi,kenya.
 
 It represents more than just food as it reflects a vibrant grill culture centered around smoky flavours,quality meals, and memorable customer experience.
  
@@ -14,12 +14,60 @@ The goal of this project is to design a simple restaurant website that includes:
 The project focuses on clarity, structure, and visual presentation rather than complex functionality.
 
 ---
+## Business Rationale
+Motomoto-grill represents a a modern grill restaurant concept targeting customers who enjoy fast,flavorful and freshly prepared meals.The website was designed to reflect:
+- A strong visual food identity
+- Easy access to contact information
+- A modern digital presence for a restaurant brand
+
+---
+
+
+## Features
+ -Responsive design
+ 
+ -Navigation bar
+
+ -Hero section
+
+ -Menus section
+
+ -Contact form
+
 
 ## Technology used
 
 - HTML5
 - Basic folder organization (assets/images)
 ---
+## Collaboration & Contribution
+
+We welcome contributions from the community and the team to help make Motomoto-grill a better Restaurant.
+
+How to Contribute
+
+1. **Fork the Repository:** Create your own copy of the project to work on.
+2. **Create a Feature Branch:**
+bash
+git checkout -b feature/AmazingFeature
+
+
+3. **Commit Your Changes:**
+
+bash
+    git commit -m 'Add some AmazingFeature'
+
+4.  **Push to the Branch:**
+bash
+    git push origin feature/AmazingFeature
+
+5.  **Open a Pull Request:** Describe your changes and submit for review.
+
+Coding Standards
+*   Ensure all HTML is semantic and well-commented.
+*   Maintain the **Stone & Amber** color palette for all UI additions.
+*   Test responsiveness across multiple screen sizes before submitting.
+
 
 ## setup instructions
 To run this project locally
@@ -53,17 +101,21 @@ motomoto-grill/
 ![alt text](image.png)
 This is an example of the home page view
 
-## Business Rationale
-Motomoto-grill represents a a modern grill restaurant concept targeting customers who enjoy fast,flavorful and freshly prepared meals.The website was designed to reflect:
-- A strong visual food identity
-- Easy access to contact information
-- A modern digital presence for a restaurant brand
 
----
 
 ## Author
  Built as a learning project to practise HTML,Git and Github workflow
 
+Future Roadmap
+
+* **Dynamic Integration:** Migrating to React and Tailwind CSS for enhanced component reusability.
+* **Backend Integration:** Implementing a Django-based management system for dynamic property listings.
+* **Map Integration:** Adding interactive map views for property locations.
+* **Admin Dashboard:** A secure portal for real estate agents to manage their portfolio.
+
+## License 
+
+This project is licensed under thr MIT License.
 
  
 
