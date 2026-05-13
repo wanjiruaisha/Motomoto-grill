@@ -1,0 +1,21 @@
+/* Universal Selector */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+h1 {
+    font-size: x-large;
+    font-weight: bolder;
+    color: rgb(201, 2, 124);
+}
+
+a {
+    text-decoration: none;
+    color: cornflowerblue;
+}
+p {
+    font-size: larger;
+    color: black;
+}

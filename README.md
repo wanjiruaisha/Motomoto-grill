@@ -15,7 +15,7 @@ The project focuses on clarity, structure, and visual presentation rather than c
 
 ---
 ## Business Rationale
-Motomoto-grill represents a a modern grill restaurant concept targeting customers who enjoy fast,flavorful and freshly prepared meals.The website was designed to reflect:
+Motomoto-grill represents a modern grill restaurant concept targeting customers who enjoy fast,flavorful and freshly prepared meals.The website was designed to reflect:
 - A strong visual food identity
 - Easy access to contact information
 - A modern digital presence for a restaurant brand
@@ -106,12 +106,13 @@ This is an example of the home page view
 ## Author
  Built as a learning project to practise HTML,Git and Github workflow
 
-Future Roadmap
+## Future Improvements
 
-* **Dynamic Integration:** Migrating to React and Tailwind CSS for enhanced component reusability.
-* **Backend Integration:** Implementing a Django-based management system for dynamic property listings.
-* **Map Integration:** Adding interactive map views for property locations.
-* **Admin Dashboard:** A secure portal for real estate agents to manage their portfolio.
+- Online ordering system
+- Table reservation feature
+- Mobile responsiveness improvements
+- Payment integration
+- Customer reviews section
 
 ## License 
 
