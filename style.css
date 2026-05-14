@@ -11,6 +11,13 @@ h1 {
     color: rgb(201, 2, 124);
 }
 
+img {
+    height: 400px;
+    width: 400px;
+    border-radius: 10%;
+
+}
+
 a {
     text-decoration: none;
     color: cornflowerblue;
@@ -18,4 +25,37 @@ a {
 p {
     font-size: larger;
     color: black;
+}
+body {
+    background-color: rgba(255, 236, 246, 0.945);
+}
+h2 ~p {
+    font-size: large;
+    color: darkblue;
+}
+a::before {
+    content: "navigation links";
+    color: red;
+}
+
+p::after {
+    content: " - end of paragraph";
+    color: yellow;
+}
+
+#about {
+    background-color: rgb(172, 90, 175);
+    padding: 10px;
+    border-radius: 5px;
+    margin: 20px;
+}
+#menu {
+    background-color: rgb(247, 46, 170);
+    padding: 10px;
+    border-radius: 5px;
+    margin: 20px;
+}
+
+.card-title {
+    color: darkgreen;
 }
