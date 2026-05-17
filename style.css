@@ -6,15 +6,21 @@
     font-family: 'Times New Roman', Times, serif;
 }
 h1 {
-    font-size: x-large;
+    
     font-weight: bolder;
     color: rgb(201, 2, 124);
+    text-shadow: 5px -5px 5px violet, 0px 0px 5px yellow ; 
+    
+}
+h1:hover {
+    box-shadow: 5px 5px 5px red;
 }
 
 img {
     height: 400px;
     width: 400px;
     border-radius: 10%;
+    
 
 }
 
@@ -27,7 +33,7 @@ p {
     color: black;
 }
 body {
-    background-color: rgba(255, 236, 246, 0.945);
+    background: linear-gradient(to right,skyblue, lightgreen );
 }
 h2 ~p {
     font-size: large;
@@ -48,14 +54,54 @@ p::after {
     padding: 10px;
     border-radius: 5px;
     margin: 20px;
+    border: 1px solid;
+    animation: 10s linear 0s infinite running myScale;
+    
 }
 #menu {
-    background-color: rgb(247, 46, 170);
+    background-color: rgb(211, 143, 218);
     padding: 10px;
     border-radius: 5px;
     margin: 20px;
+    border: 1px solid;
+    width: 600px;
+    animation: 10s linear 0s infinite running myColorChange;
 }
 
+@keyframes myDemo {
+    100%{transform: rotateY(360deg);}
+}
+@keyframes myOpacity {
+    100%{opacity: 0;}
+}
+@keyframes myScale{
+    50%{transform: scale(0.5, 0.5);}
+
+}
+@keyframes myColorChange {
+0% {background-color: aqua;}
+20% {background-color: violet;}
+40% {background-color:orange;}
+60% {background-color: lavender;}
+80% {background-color: greenyellow;}
+100% {background-color: red;}
+
+}
 .card-title {
     color: darkgreen;
+}
+ 
+/* a:link {
+    color: violet;
+}
+a:hover {
+    color: orange;
+} */
+
+.fa-facebook {
+    color: blue !important;
+
+}
+.fa-tiktok {
+    color: black;
 }
