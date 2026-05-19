@@ -99,9 +99,7 @@ motomoto-grill/
         ├── burger.jpg
         └── grilledporkribs.jpg
 ```
-## screenshots
-![alt text](image.png)
-This is an example of the home page view
+
 
 
 
