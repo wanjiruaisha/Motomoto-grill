@@ -95,9 +95,9 @@ motomoto-grill/
 ├── README.md
 └── assets/
     └── images/
-        ├── grilled-food.jpg
+        ├── grilledfood.jpg
         ├── burger.jpg
-        └── grilled-pork-ribs.jpg
+        └── grilledporkribs.jpg
 ```
 ## screenshots
 ![alt text](image.png)
