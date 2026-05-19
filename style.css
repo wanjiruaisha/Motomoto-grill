@@ -128,7 +128,7 @@ nav a:hover {
 }
 
 .card:hover {
-  transform: translateY(-8px);
+  transform: translateY(-8Px);
 }
 
 .card img {
