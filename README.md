@@ -89,15 +89,23 @@ cd Motomoto-grill
 ## 📁 Project Structure
 
 ```text
-motomoto-grill/
-├── index.html
-├── contact.html
-├── README.md
-└── assets/
-    └── images/
-        ├── grilledfood.jpg
-        ├── burger.jpg
-        └── grilledporkribs.jpg
+│   contact.html
+│   index.html
+│   LICENSE
+│   README.md
+│   
+├───.vscode
+│       settings.json
+│       
+├───assets
+│   └───images
+│           burger.jpg
+│           grilledfood.jpg
+│           grilledporkribs.jpg
+│           
+└───css
+        style.css
+       
 ```
 
 
