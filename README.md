@@ -1,9 +1,9 @@
 # Motomoto-grill
-Motomoto-grill is a simple restaurant website project showcasing a grill restaurant based in Nairobi,kenya.
+Motomoto-grill is a simple restaurant website project showcasing a grill restaurant based in Nairobi, kenya.
 
 It represents more than just food as it reflects a vibrant grill culture centered around smoky flavours,quality meals, and memorable customer experience.
  
- ## Project brief
+ ## Project Brief
 
 The goal of this project is to design a simple restaurant website that includes:
 
@@ -24,22 +24,20 @@ Motomoto-grill represents a modern grill restaurant concept targeting customers 
 
 
 ## Features
- -Responsive design
- 
- -Navigation bar
-
- -Hero section
-
- -Menus section
-
- -Contact form
+ - Responsive homepage with hero, about, and menu sections
+- Interactive restaurant menu displayed directly on the homepage (`index.html`)
+- Contact page for customer inquiries and reservations
+- Stone & Amber inspired visual design
+- Mobile-friendly navigation and layout
+> Note: The current menu is implemented as a section within the homepage and not as a separate `menu.html` page. Future updates may introduce a dedicated menu page for expanded functionality and organization.
 
 
-## Technology used
+## Technology Used
 
 - HTML5
 - Basic folder organization (assets/images)
----
+- CSS3
+
 ## Collaboration & Contribution
 
 We welcome contributions from the community and the team to help make Motomoto-grill a better Restaurant.
@@ -71,7 +69,7 @@ Coding Standards
 *   Test responsiveness across multiple screen sizes before submitting.
 
 
-## setup instructions
+## Setup Instructions
 To run this project locally
 1. Clone the repository:
 ```bash
@@ -124,7 +122,7 @@ cd Motomoto-grill
 
 ## License 
 
-This project is licensed under thr MIT License.
+This project is licensed under the MIT License.
 
  
 
